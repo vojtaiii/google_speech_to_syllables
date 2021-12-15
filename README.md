@@ -30,3 +30,22 @@ output_file_path = 'C:/Users/username/python_project/data_output/'
 # obtain the desired bucket
 bucket_name = "bucket_name"
 ```
+
+* Modify the `config` variables to reflect your data
+
+Set the audio sampling rate and language. For Google API:
+
+```python
+config = speech.RecognitionConfig(
+        sample_rate_hertz=48000,
+        language_code="cs-CZ",
+        enable_word_time_offsets=True,
+    )
+```
+
+For Pyphen:
+
+```python
+pyphen.language_fallback("cs_CZ")
+dic = pyphen.Pyphen(lang='cs_CZ')
+```
