@@ -17,7 +17,7 @@ python speech-to-words-to-syllables.py
 * Create a credentials file for server authentication (hardest step probably)
 * Create a new _bucket_ (folder) on the cloud storage
 * Upload files of interest to the given bucket
-* Run the script `speech-to-words-to-syllables.py` in terminal with the following arguments supplied (within the script):
+* Supply the following arguments within the script:
   * path to the credentials file
   * path to the output folder
   * name of the bucket on google cloud
@@ -49,3 +49,5 @@ For Pyphen:
 pyphen.language_fallback("cs_CZ")
 dic = pyphen.Pyphen(lang='cs_CZ')
 ```
+
+* Run the script `speech-to-words-to-syllables.py` in terminal
