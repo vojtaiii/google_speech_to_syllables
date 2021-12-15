@@ -7,6 +7,11 @@ Developed at FEE CTU in Prague.
 
 ## Use
 Process speech audio files and outputs its syllables and corresponding timestamps.
+
+```shell
+python speech-to-words-to-syllables.py
+```
+
 ## Setup
 * Create a google cloud account
 * Create a credentials file for server authentication (hardest step probably)
@@ -16,3 +21,12 @@ Process speech audio files and outputs its syllables and corresponding timestamp
   * path to the credentials file
   * path to the output folder
   * name of the bucket on google cloud
+
+```python
+# set the credentials environment variable
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'C:\\Users\\username\\google_credentials_file.json'
+#  files for result storing
+output_file_path = 'C:/Users/username/python_project/data_output/'
+# obtain the desired bucket
+bucket_name = "bucket_name"
+```
