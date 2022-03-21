@@ -3,6 +3,10 @@ Script for transcribing audio files into syllables using Google Cloud and Pyphen
 [google python tutorial](https://codelabs.developers.google.com/codelabs/cloud-speech-text-python3#0)
 and [Pyphen](https://pypi.org/project/Pyphen/). 
 
+If you use the particular method in your work, please cite the following article:
+
+Illner, V., Tykalová, T., Novotný, M., Klempíř, J., Dušek, P., & Rusz, J. Toward Automated Articulation Rate Analysis via Connected Speech in Dysarthrias. Journal of Speech, Language, and Hearing Research, 1-16. https://doi.org/10.1044/2021_JSLHR-21-00549
+
 Developed at FEE CTU in Prague.
 
 ## Use
